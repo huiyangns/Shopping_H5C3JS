@@ -1,0 +1,93 @@
+
+.sk {
+    position: absolute;
+    top: 41px;
+    left: 187px;
+    padding: 3px 0px 0px 12px;
+    border-left: 1px solid #b1191a;
+}
+.sk-list,
+.sk-con {
+    float: left;
+}
+.sk-list ul li {
+    float: left;
+}
+.sk-list ul li a {
+    height: 47px;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#000;
+}
+
+.sk-con ul li {
+    float: left;
+}
+.sk-con ul li a {
+    height: 47px;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk-con ul li:last-child a::after {
+    content:"\e91e";
+    font-family: "icomoon";
+}
+
+.sk-bd {
+    margin-top: 25px;
+}
+.sk-bd li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+}
+.sk-bd li:nth-child(4n) {
+    margin-right: 0px;
+
+}
+.sk-bd li:hover {
+    border: 1px solid #b1191a;;
+
+}
+.sk-bd li a {
+    display: block;
+    margin-top: 10px;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #b1191a;
+    font-size: 20px;
+    color:#fff;
+}
+.sk-bd li img {
+    width: 100%;
+}
+
+.sk-bd li p {
+    padding: 10px 15px 0px;
+    font-size: 14px;
+    color:#666666;
+}
+
+.sk-bd li i {
+    display: block;
+    font-size: 14px;
+    color:#b1191a;
+    margin:19px 0px 0px 15px;
+}
+
+.sk-bd li i span:nth-child(1) {
+    font-size: 22px;
+}
+
+.sk-bd li i span:nth-child(2) {
+    color:#a4a4a4;
+    text-decoration:line-through;
+}
